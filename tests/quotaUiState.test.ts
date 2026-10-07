@@ -46,6 +46,16 @@ afterAll(() => {
 });
 
 describe('quota ui state', () => {
+  test('preserves ledger and privacy preferences when changing a provider tab', () => {
+    writeQuotaUiState({ view: 'cards', showEmails: false });
+    writeQuotaUiState({ tab: 'codex' });
+    expect(readQuotaUiState()).toEqual({
+      tab: 'codex',
+      sortMode: undefined,
+      view: 'cards',
+      showEmails: false,
+    });
+  });
   test('round-trips both preferences', () => {
     writeQuotaUiState({ tab: 'codex', sortMode: 'soonest' });
     expect(readQuotaUiState()).toEqual({ tab: 'codex', sortMode: 'soonest' });

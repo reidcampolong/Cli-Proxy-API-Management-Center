@@ -1586,7 +1586,20 @@
     "weekday_wed": "Ср",
     "weekday_thu": "Чт",
     "weekday_fri": "Пт",
-    "weekday_sat": "Сб"
+    "weekday_sat": "Сб",
+    "ledger_view": "Список",
+    "cards_view": "Карточки и шкала времени",
+    "view_label": "Вид квот",
+    "ledger_show_emails": "Показать email",
+    "ledger_hide_emails": "Скрыть email",
+    "ledger_summary": "Суммарные квоты провайдеров",
+    "ledger_of": "из {{capacity}}%",
+    "ledger_normalized_hint": "Каждый аккаунт даёт до 100%. Суммы не сравнивают лимиты токенов разных тарифов.",
+    "ledger_no_reset": "Сброс не ожидается",
+    "ledger_not_loaded": "Квота не загружена",
+    "ledger_partial": "Загружены квоты {{loaded}} из {{total}} аккаунтов",
+    "ledger_details": "Подробности",
+    "ledger_reset_unavailable": "Время сброса недоступно"
   },
   "plugin_management": {
     "title": "Управление плагинами",

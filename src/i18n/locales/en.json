@@ -1583,7 +1583,20 @@
     "weekday_wed": "Wed",
     "weekday_thu": "Thu",
     "weekday_fri": "Fri",
-    "weekday_sat": "Sat"
+    "weekday_sat": "Sat",
+    "ledger_view": "Ledger",
+    "cards_view": "Cards & timeline",
+    "view_label": "Quota view",
+    "ledger_show_emails": "Show emails",
+    "ledger_hide_emails": "Hide emails",
+    "ledger_summary": "Provider quota totals",
+    "ledger_of": "of {{capacity}}%",
+    "ledger_normalized_hint": "Each account contributes up to 100%. Totals do not compare different plans’ token limits.",
+    "ledger_no_reset": "No reset pending",
+    "ledger_not_loaded": "Quota not loaded",
+    "ledger_partial": "Quota loaded for {{loaded}} of {{total}} accounts",
+    "ledger_details": "Details",
+    "ledger_reset_unavailable": "Reset time unavailable"
   },
   "plugin_management": {
     "title": "Plugin Management",
