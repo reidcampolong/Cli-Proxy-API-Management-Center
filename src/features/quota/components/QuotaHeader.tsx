@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import type { ReactNode } from 'react';
 import { IconRefreshCw } from '@/components/ui/icons';
 import { useCountUp } from '@/hooks/motion';
 import styles from './QuotaHeader.module.scss';
@@ -10,6 +11,7 @@ export type QuotaHeaderProps = {
   refreshing: boolean;
   disableControls: boolean;
   onRefreshAll: () => void;
+  extraActions?: ReactNode;
 };
 
 /**
@@ -55,6 +57,7 @@ export function QuotaHeader(props: QuotaHeaderProps) {
         </p>
       </div>
       <div className={styles.actions} data-reveal>
+        {props.extraActions}
         <button
           type="button"
           className={styles.primaryAction}

@@ -1540,7 +1540,20 @@
     "search_placeholder": "Tìm theo tên file hoặc email",
     "search_empty_title": "Không có tài khoản phù hợp",
     "search_empty_desc": "Hãy thử tên file hoặc email khác, hoặc xóa tìm kiếm.",
-    "search_clear": "Xóa tìm kiếm"
+    "search_clear": "Xóa tìm kiếm",
+    "ledger_view": "Danh sách",
+    "cards_view": "Thẻ và dòng thời gian",
+    "view_label": "Chế độ xem hạn mức",
+    "ledger_show_emails": "Hiện email",
+    "ledger_hide_emails": "Ẩn email",
+    "ledger_summary": "Tổng hạn mức theo nhà cung cấp",
+    "ledger_of": "trên {{capacity}}%",
+    "ledger_normalized_hint": "Mỗi tài khoản đóng góp tối đa 100%. Tổng không so sánh giới hạn token của các gói khác nhau.",
+    "ledger_no_reset": "Không có lần đặt lại sắp tới",
+    "ledger_not_loaded": "Chưa tải hạn mức",
+    "ledger_partial": "Đã tải hạn mức của {{loaded}} trên {{total}} tài khoản",
+    "ledger_details": "Chi tiết",
+    "ledger_reset_unavailable": "Chưa có thời gian đặt lại"
   },
   "plugin_management": {
     "title": "Quản lý Plugin",

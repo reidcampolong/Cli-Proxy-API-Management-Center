@@ -1607,7 +1607,20 @@
     "weekday_wed": "三",
     "weekday_thu": "四",
     "weekday_fri": "五",
-    "weekday_sat": "六"
+    "weekday_sat": "六",
+    "ledger_view": "列表",
+    "cards_view": "卡片與時間軸",
+    "view_label": "額度檢視",
+    "ledger_show_emails": "顯示信箱",
+    "ledger_hide_emails": "隱藏信箱",
+    "ledger_summary": "供應商額度彙總",
+    "ledger_of": "總計 {{capacity}}%",
+    "ledger_normalized_hint": "每個帳號最多貢獻 100%。彙總不比較不同方案的 token 上限。",
+    "ledger_no_reset": "暫無待重設額度",
+    "ledger_not_loaded": "額度尚未載入",
+    "ledger_partial": "已載入 {{loaded}} / {{total}} 個帳號的額度",
+    "ledger_details": "詳細資訊",
+    "ledger_reset_unavailable": "重設時間無法取得"
   },
   "plugin_management": {
     "title": "插件管理",
